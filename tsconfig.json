@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "CommonJS",
+    "skipLibCheck": true,
+    "paths": {
+      "@jagjerez/utils": ["./src/"],
+      "@jagjerez/utils/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
